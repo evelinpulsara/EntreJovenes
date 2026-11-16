@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ENTRE JÓVENES · Fórmate, cuídate</title>
+  <meta name="theme-color" content="#7c3aed" />
+  <meta name="description" content="Espacio seguro y confidencial de educación en salud sexual y reproductiva para jóvenes." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="assets/css/styles.css?v=2" />
+  <link rel="stylesheet" href="assets/css/vibrante.css?v=7" />
+</head>
+
+<body>
+  <!-- ====================== HEADER / NAV FIJA ====================== -->
+  <header class="site-header" id="siteHeader">
+    <nav class="nav" aria-label="Navegación principal">
+      <a class="brand" href="#/inicio" aria-label="Ir al inicio">
+        <span class="brand__mark" aria-hidden="true">EJ</span>
+        <span class="brand__text">
+          <strong>Entre Jóvenes</strong>
+          <small>Fórmate, cuídate</small>
+        </span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        id="navToggle"
+        type="button"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+        aria-controls="navLinks"
+      >
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks"></ul>
+    </nav>
+  </header>
+
+  <!-- ====================== BOTÓN VOLVER (subsecciones) ====================== -->
+  <div class="back-bar" id="backBar" hidden>
+    <div class="wrap">
+      <button class="back-btn" id="backButton" type="button">
+        <span aria-hidden="true">←</span> Volver
+      </button>
+    </div>
+  </div>
+
+  <!-- ====================== CONTENEDOR DE VISTAS ====================== -->
+  <main class="view" id="view" tabindex="-1"></main>
+
+  <!-- ====================== FOOTER ====================== -->
+  <footer class="site-footer">
+    <div class="wrap site-footer__inner">
+      <div class="site-footer__brand-col">
+        <p class="site-footer__brand">ENTRE JÓVENES</p>
+        <p class="site-footer__claim">Fórmate, cuídate</p>
+      </div>
+
+      <div class="site-footer__info">
+        <p class="site-footer__project">Proyecto “Conocer y prevenir para mejor vivir”</p>
+        <p>Práctica Integrada · Tecnología en Promoción de la Salud · Universidad de Nariño · Periodo B-2026</p>
+        <p>En articulación con la E.S.E. Pasto Salud, sede La Rosa · Grado 10.º A, I.E.M. La Rosa.</p>
+      </div>
+    </div>
+
+    <div class="wrap site-footer__partners" aria-label="Instituciones y proyecto">
+      <p class="site-footer__partners-label">Instituciones y proyecto</p>
+      <div class="site-footer__logos">
+        <img src="assets/img/logo-pasto-salud.png" alt="Empresa Social del Estado Pasto Salud" loading="lazy" />
+        <img src="assets/img/identidad-proyecto.png" alt="Ilustración de salud sexual y autocuidado del proyecto" loading="lazy" />
+        <img src="assets/img/logo-universidad-narino.png" alt="Universidad de Nariño" loading="lazy" />
+      </div>
+    </div>
+
+    <div class="wrap site-footer__bottom">
+      <p>Espacio seguro y confidencial · La información también es parte de cuidarte.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/js/app.js?v=5"></script>
+</body>
+</html>
